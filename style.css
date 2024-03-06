@@ -27,8 +27,8 @@ i {
   height: 100vh;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 300px 1fr 1fr 400px;
-  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 300px 1fr 400px;
+  grid-template-rows: 1fr 5fr;
 }
 
 .profile-photo {
@@ -38,7 +38,7 @@ i {
 
 .header {
   background: white;
-  grid-column: 2/5;
+  grid-column: 2/4;
   display: grid;
   grid-template-rows: 1fr 1.5fr;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
@@ -180,7 +180,7 @@ i {
 
 .projects {
   padding: 35px 30px;
-  grid-column: 2/4;
+  grid-column: 2/3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -238,5 +238,5 @@ i {
 
 .side {
   border: 1px solid black;
-  grid-column: 4/5;
+  grid-column: 3/4;
 }
